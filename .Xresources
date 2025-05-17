@@ -1,0 +1,17 @@
+Xft.antialias:                  true
+Xft.rgba:                       rgb
+Xft.hinting:                    true
+Xft.hintstyle:                  hintfull
+Xft.autohint:                   false
+Xft.lcdfilter:                  lcddefault
+
+Urxvt.font:                     xft:Iosevka:style=Regular:antialias=true:hinting=full:pixelsize=16
+Urxvt.boldFont:                 xft:Iosevka:style=Bold:antialias=true:hinting:full:pixelsize=16
+
+*utf8:                          1
+
+Emacs.menuBar:                  off
+Emacs.background:               #012456
+Emacs.foreground:               #eeedf0
+Emacs.cursorColor:              yellow
+Emacs.verticalScrollBars:       off
