@@ -1,10 +1,12 @@
-# Framework 13 AMD
+# NixOS configuration for Framework 13 AMD
 
-My NixOS configuration for a recently purchased Framework 13 AMD laptop. Under [framework](./framework) you'll find the system configuration, whereas under [home-manager](./home-manager) is my regular user's config. 
+My NixOS configuration for a recently purchased Framework 13 AMD laptop. Under [framework](./framework) you'll find the system configuration, whereas under [home-manager](./home-manager) is my regular user's config. I did a [standalone installation](https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone) for Home Manager.
 
 I finally found a good excuse to learn Nix / NixOS. It took me roughly 2 days to go from zero to a fully working environment, mostly because documentation online is pretty decent. A few sources of inspiration:
 - https://github.com/NixOS/nixos-hardware
 - https://github.com/gkapfham/nixos
+
+Having said that, I'm still learning and some of the configuration here will change over time.
 
 # Specs
 
