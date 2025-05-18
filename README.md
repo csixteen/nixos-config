@@ -17,4 +17,4 @@ Having said that, I'm still learning and some of the configuration here will cha
 
 ## Software
 
-I'm running i3wm plain and simple. I've tried using Xfce as a [desktop manager](https://nixos.wiki/wiki/Xfce#Using_as_a_desktop_manager_and_not_a_window_manager), but for whatever reason it discarded my `logind` settings and the battery was draining quite fast with the lid closed. The main drawback is that it required setting up `acpid` events and actions for controlling brightness, and also extra key bindings for controlling the volume (i3 won't do this for you).
+I'm running i3wm with no desktop manager. I've tried using i3 with Xfce as a [desktop manager](https://nixos.wiki/wiki/Xfce#Using_as_a_desktop_manager_and_not_a_window_manager), but for whatever reason it discarded my `logind` settings and the battery was draining quite fast with the lid closed. The main drawback of running i3 without a desktop manager is that it requires setting up `acpid` events and actions for controlling brightness, and also extra key bindings for controlling the volume.
