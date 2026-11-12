@@ -22,9 +22,13 @@ in
       ./networking.nix
       ./none_i3.nix
       ./power-management.nix
+      ./virtualisation.nix
     ];
 
   # Bootloader.
+  boot.extraModprobeConfig = ''
+    options cfg80211 ieee80211_regdom="NL"
+  '';
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
@@ -34,14 +38,33 @@ in
   # Minimal kernel params, including the one that disables ASPM (which seems
   # to enable suspend to work when using a dock).
   boot.kernelParams = [
-    "amdgpu.dcdebugmask=0x10"
-    "pcie_aspm=off"
+    # The following should be set only when experiencing white-screen flickering,
+    # which should actually have been fixed in newer AMD firmware and kernels.
+    # The setting may drain battery because it disables Panel Self-Refresh (PSR)
+    # on the AMD display controller. The PSR allows the display panel to refresh
+    # static images from its own internal memory while the GPU shuts down between
+    # frames. That means that disabling PSR forces the Radeon 760M to stay awake
+    # continuously whenever the screen is on.
+    # "amdgpu.dcdebugmask=0x10"
+
+    # The following is disabled because it "may" drain battery. ASPM (Active
+    # State Power Management) allows PCIe devices - most notably NVMe SSD, Wi-Fi
+    # card, and Thunderbolt/USB4 controllers - to power down when idle. By
+    # disabling ASPM, we're keeping these links running at full power 100% of the
+    # time, which may add 2W to 4W continuous drain, even if the laptop is doing
+    # nothing, or suspended.
+    # "pcie_aspm=off"
   ];
 
   hardware.enableRedistributableFirmware = true;
 
   # Enable flakes
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix = {
+    settings = {
+      experimental-features = [ "nix-command" "flakes" ];
+      trusted-users = [ "root" "pmpro" ];
+    };
+  };
 
   # Set your time zone.
   time.timeZone = "Europe/Amsterdam";
@@ -55,18 +78,29 @@ in
     keyMap = "us";
   };
 
-  fonts.packages = with pkgs; [
-    fira-code
-    hack-font
-    iosevka
-    roboto-mono
-    (nerdfonts.override { fonts = [
-      "FiraCode"
-      "Hack"
-      "Iosevka"
-      "RobotoMono" 
-    ]; })
-  ];
+  fonts = {
+    enableDefaultPackages = true;
+    fontDir.enable = true;
+
+    fontconfig = {
+      defaultFonts.emoji = ["Noto Color Emoji"];
+    };
+
+    packages = with pkgs; [
+      fira-code
+      hack-font
+      iosevka
+      noto-fonts
+      noto-fonts-cjk-sans
+      noto-fonts-cjk-serif
+      noto-fonts-color-emoji
+      roboto-mono
+      nerd-fonts.fira-code
+      nerd-fonts.iosevka
+      nerd-fonts.hack
+      nerd-fonts.roboto-mono
+    ];
+  };
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -91,7 +125,7 @@ in
   users.users.pmpro = {
     isNormalUser = true;
     description = "Pedro";
-    extraGroups = [ "networkmanager" "wheel" "audio" "video" "input" ];
+    extraGroups = [ "networkmanager" "wheel" "audio" "video" "input" "docker" ];
   };
 
   # Allow unfree packages
@@ -101,29 +135,42 @@ in
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     acpid
+    acpilight
+    atop
+    brightnessctl
     dig
     gcc
     gdb
     git
+    gnumake
     htop
     iotop
-    light
+    iw
     linux-firmware
+    perf
     lm_sensors
+    lsof
     netcat
+    nh
     nix-search-cli
     nix-tree
-    nixfmt-classic
+    nixfmt
     nvme-cli
     pamixer
+    pciutils
+    powerstat
+    powertop
     pstree
     sysstat
     tcpdump
     traceroute
     tree
+    usbutils
+    unzip
     vim
     wget
-    xorg.xhost
+    xcompmgr
+    xhost
     zip
     zlib
   ];
@@ -160,7 +207,7 @@ in
   nix.gc = {
     automatic = true;
     dates = "weekly";
-    options = "--delete-older-than 30d --keep-generations 5";
+    options = "--delete-older-than 20d";
     randomizedDelaySec = "1 hour";
   };
 
