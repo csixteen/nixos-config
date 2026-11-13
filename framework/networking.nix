@@ -14,15 +14,16 @@
 
     wireless = {
       enable = true;
-      userControlled = {
-        enable = true;
-      };
+      userControlled = true;
+      extraConfig = ''
+        country=NL
+        bgscan="simple:30:-75:300"
+        autoscan="exponential:3:30"
+      '';
 
-      networks = {
-        YOUR_SSID = {
-          psk = "CHANGE_ME";
-        };
-      };
+      extraConfigFiles = [
+        "/etc/wpa_supplicant/private-networks.conf"
+      ];
     };
   };
 }
