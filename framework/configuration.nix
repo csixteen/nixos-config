@@ -125,7 +125,7 @@ in
   users.users.pmpro = {
     isNormalUser = true;
     description = "Pedro";
-    extraGroups = [ "networkmanager" "wheel" "audio" "video" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "audio" "video" ];
   };
 
   # Allow unfree packages
