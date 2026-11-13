@@ -1,9 +1,9 @@
-# /home/pmpro/.config/systemd/user/xautolock-session.service -> /nix/store/g0gy35lyssb0d938prmwxsqhagy3b3iy-xautolock-session.service/xautolock-session.service
+# /home/pmpro/.config/systemd/user/xautolock-session.service -> /nix/store/g0hl28hh4br1lidizs08v5f5dh8v89k1-xautolock-session.service/xautolock-session.service
 [Install]
 WantedBy=graphical-session.target
 
 [Service]
-ExecStart=/nix/store/w6ax229qrx0qyghc940vijr5l0f3n0xc-xautolock-2.2-7-ga23dd5c/bin/xautolock -time 5 -locker '/nix/store/y3fqx697649kqv1a9c0z1jsk4wy2zlqa-systemd-260.5/bin/loginctl lock-session ${XDG_SESSION_ID}' -detectsleep -time 5 -locker /nix/store/sr0q7b88hlvsx587rbwpnm8vd3l1n2z8-i3lock-2.15/bin/i3lock -c 000000 -killtime 15 -killer systemctl suspend
+ExecStart=/nix/store/w6ax229qrx0qyghc940vijr5l0f3n0xc-xautolock-2.2-7-ga23dd5c/bin/xautolock -time 5 -locker '/nix/store/y3fqx697649kqv1a9c0z1jsk4wy2zlqa-systemd-260.5/bin/loginctl lock-session ${XDG_SESSION_ID}' -detectsleep -killtime 15 -killer '/nix/store/y3fqx697649kqv1a9c0z1jsk4wy2zlqa-systemd-260.5/bin/systemctl suspend'
 Restart=always
 
 [Unit]
