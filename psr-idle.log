@@ -1,0 +1,219 @@
+ kworker/u48:2-d    5625 [006]  2583.837965:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [006]  2583.837969: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [006]  2584.121195:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [006]  2584.121206: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:23-    2202 [008]  2584.153468:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:23-    2202 [008]  2584.153471:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:23-    2202 [008]  2584.153473: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2584.194499:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [008]  2584.194502: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2584.213463:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [008]  2584.213465:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [008]  2584.213466: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2584.310088:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [008]  2584.310092: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [002]  2584.726598:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2584.726602: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [002]  2584.744544:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2584.744548:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [002]  2584.744550: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2584.837940:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [010]  2584.837946: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [010]  2585.728713:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2585.728720: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2585.747691:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [000]  2585.747696:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [000]  2585.747698: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2585.845940:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [000]  2585.845945: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [002]  2586.730161:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2586.730165: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2586.747552:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [000]  2586.747557:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [000]  2586.747560: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2586.845914:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [000]  2586.845917: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [004]  2587.732035:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2587.732042: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2587.749463:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2587.749467:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [004]  2587.749469: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2587.845886:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [004]  2587.845893: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [010]  2588.733636:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2588.733641: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2588.751443:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2588.751447:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [010]  2588.751449: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2588.845874:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [010]  2588.845880: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:23-    2202 [008]  2589.734479:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:23-    2202 [008]  2589.734482: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:23-    2202 [008]  2589.752425:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:23-    2202 [008]  2589.752428:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:23-    2202 [008]  2589.752429: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2589.845865:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [004]  2589.845871: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [004]  2590.736597:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2590.736603: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2590.754475:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2590.754479:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [004]  2590.754481: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2590.853868:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [004]  2590.853874: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:23-    2202 [002]  2591.738786:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:23-    2202 [002]  2591.738791: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:23-    2202 [008]  2591.756380:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:23-    2202 [008]  2591.756382:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:23-    2202 [008]  2591.756383: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:23-    2202 [008]  2591.853866:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:23-    2202 [008]  2591.853871: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [004]  2592.741249:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2592.741254: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2592.758389:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2592.758393:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [004]  2592.758395: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2592.853874:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [004]  2592.853880: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [004]  2593.743602:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2593.743608: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2593.761487:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [000]  2593.761492:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [000]  2593.761495: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2593.853842:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [000]  2593.853848: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [004]  2594.745010:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2594.745014: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2594.762663:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [004]  2594.762669:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [004]  2594.762671: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [004]  2594.861844:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [004]  2594.861850: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [002]  2595.746565:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2595.746569: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2595.764355:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [008]  2595.764357:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [008]  2595.764359: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2595.861791:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [008]  2595.861795: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [002]  2596.747588:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2596.747593: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [000]  2596.766387:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [000]  2596.766391:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [000]  2596.766393: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [008]  2596.861859:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [008]  2596.861865: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [010]  2597.750477:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2597.750483: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2597.768406:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2597.768409:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [010]  2597.768410: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2597.861925:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [010]  2597.861931: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [001]  2598.750686:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [001]  2598.750691: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [001]  2598.768590:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [001]  2598.768595:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [001]  2598.768598: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [001]  2598.861761:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [001]  2598.861767: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2599.752139:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2599.752145: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2599.769382:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2599.769388:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2599.769390: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2599.861759:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2599.861763: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2600.754137:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2600.754143: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2600.771588:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2600.771593:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2600.771596: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2600.869763:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2600.869769: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2601.756318:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2601.756322: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2601.774296:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2601.774298:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2601.774299: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2601.869306:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2601.869311: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:1-f    4608 [002]  2602.759168:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [002]  2602.759190: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2602.777218:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:1-f    4608 [010]  2602.777224:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:1-f    4608 [010]  2602.777226: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:1-f    4608 [010]  2602.869698:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:1-f    4608 [008]  2602.869723: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2603.758452:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2603.758455: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2603.777514:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2603.777520:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2603.777522: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2603.869684:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2603.869689: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [010]  2604.760929:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [010]  2604.760940: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2604.778265:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2604.778269:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2604.778271: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2604.877711:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2604.877716: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [010]  2605.762814:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [010]  2605.762820: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [006]  2605.780258:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [006]  2605.780262:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [006]  2605.780265: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [006]  2605.877707:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [006]  2605.877713: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [002]  2606.763981:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [002]  2606.763984: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [002]  2606.781462:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [002]  2606.781468:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [002]  2606.781471: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [002]  2606.877640:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [002]  2606.877644: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [004]  2607.765611:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [004]  2607.765617: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2607.783479:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2607.783484:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2607.783487: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2607.877653:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2607.877658: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2608.766847:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2608.766852: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2608.784218:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2608.784222:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2608.784224: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2608.877159:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2608.877162: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2609.768806:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2609.768809: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:23-    2202 [009]  2609.786858:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:23-    2202 [009]  2609.786863:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:23-    2202 [009]  2609.786866: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:23-    2202 [009]  2609.885210:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:23-    2202 [009]  2609.885215: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2610.769101:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2610.769107: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2610.787350:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2610.787355:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2610.787358: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2610.885562:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2610.885565: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2611.770754:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2611.770758: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2611.789456:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2611.789460:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2611.789462: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2611.885615:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2611.885620: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:2-d    5625 [000]  2612.773053:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2612.773058: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2612.791112:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] FULL_POWER_RUNNING -> HYSTERESIS_WAITING on event ENTER_IDLE_REQUESTED
+ kworker/u48:2-d    5625 [000]  2612.791114:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] HYSTERESIS_WAITING -> OPTIMIZED_IDLE on event IMMEDIATE
+ kworker/u48:2-d    5625 [000]  2612.791115: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=0
+ kworker/u48:2-d    5625 [000]  2612.885574:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE -> OPTIMIZED_IDLE_SSO on event SSO_TIMER_ELAPSED
+ kworker/u48:2-d    5625 [000]  2612.885579: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=0 vblank_enabled=0 allow_panel_sso=1
+ kworker/u48:23-    2202 [003]  2613.774928:  amdgpu_dm:amdgpu_dm_ism_event: [CRTC 0] OPTIMIZED_IDLE_SSO -> FULL_POWER_RUNNING on event EXIT_IDLE_REQUESTED
+ kworker/u48:23-    2202 [003]  2613.774935: amdgpu_dm:amdgpu_dm_ism_commit: active_vblank_irq_count=1 vblank_enabled=1 allow_panel_sso=0
