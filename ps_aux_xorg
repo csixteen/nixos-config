@@ -1,0 +1,2 @@
+ps aux | grep -i xorg
+pmpro       1524  0.6  0.1 1114092 102812 tty1   Sl   10:38   0:44 /nix/store/pf5s0lj8pnx406syb60i3x4zk83pm8gx-xorg-server-21.1.24/bin/X -config /nix/store/8p8fwh7d99hnqzwxzrqvdv7sb9gkygjm-xserver.conf -xkbdir /nix/store/6kcsdrhv6d7hwf50qhzhx7pzzmn8hiib-xkeyboard-config-2.47/etc/X11/xkb :0 -dpi 180 -verbose 3 -nolisten tcp -terminate :0 vt1 -keeptty -auth /home/pmpro/.serverauth.1502
