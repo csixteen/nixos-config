@@ -76,7 +76,7 @@ in {
         "${mod}+Shift+l" = "exec ${lock_cmd} -c 000000";
         "${mod}+Tab" = "workspace next";
         "${mod}+Shift+Tab" = "workspace prev";
-        "${mod}+p" = "exec ${pkgs.power-profiles-daemon}/bin/powerprofilesctl set powersaver";
+        "${mod}+p" = "exec ${pkgs.power-profiles-daemon}/bin/powerprofilesctl set power-saver";
         "${mod}+Shift+p" = "exec ${pkgs.power-profiles-daemon}/bin/powerprofilesctl set performance";
 
         # Screenshot key bindings
