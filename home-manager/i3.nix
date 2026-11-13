@@ -14,10 +14,8 @@ in {
       enable = true;
 
       extraOptions = [
-        "-time" "5"
-        "-locker" "${pkgs.i3lock}/bin/i3lock -c 000000"
         "-killtime" "15"
-        "-killer" "systemctl suspend"
+        "-killer" "'${pkgs.systemd}/bin/systemctl suspend'"
       ];
     };
   };
