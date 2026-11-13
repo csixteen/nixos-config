@@ -1,9 +1,0 @@
-nov 13 16:29:48 nixos systemd[1]: Starting User Login Management...
-nov 13 16:29:48 nixos systemd-logind[742]: New seat seat0.
-nov 13 16:29:48 nixos systemd-logind[742]: Watching system buttons on /dev/input/event2 (Lid Switch)
-nov 13 16:29:48 nixos systemd-logind[742]: Watching system buttons on /dev/input/event5 (FRMW0004:00 32AC:0006 Consumer Control)
-nov 13 16:29:48 nixos systemd-logind[742]: Watching system buttons on /dev/input/event3 (Power Button)
-nov 13 16:29:48 nixos systemd-logind[742]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
-nov 13 16:29:48 nixos systemd[1]: Started User Login Management.
-nov 13 16:31:00 nixos systemd-logind[742]: New session '1' of user 'pmpro' with class 'user' and type 'tty'.
-nov 13 16:31:00 nixos systemd-logind[742]: New session '2' of user 'pmpro' with class 'manager' and type 'unspecified'.
