@@ -62,7 +62,7 @@ in
   nix = {
     settings = {
       experimental-features = [ "nix-command" "flakes" ];
-      trusted-users = [ "root" "pmpro" ];
+      trusted-users = [ "root" ];
     };
   };
 
@@ -184,7 +184,18 @@ in
   };
 
   # Enable the OpenSSH daemon.
-  services.openssh.enable = true;
+  services.openssh = {
+    enable = true;
+
+    settings = {
+      AllowUsers = [ "pmpro" ];
+      PermitRootLogin = "no";
+
+      PasswordAuthentication = true;  # disable this later
+      KbdInteractiveAuthentication = false;
+      PubkeyAuthentication = true;
+    };
+  };
 
   # BIOS updates are distributed through LVFS
   # To update, run:
