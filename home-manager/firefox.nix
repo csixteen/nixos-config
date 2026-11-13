@@ -23,11 +23,6 @@
          Value = true;
          Status = "default";
        };
-
-       "dom.min_background_timeout_value" = {
-         Value = true;
-         Status = "default";
-       };
       };
     };
   };
