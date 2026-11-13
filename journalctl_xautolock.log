@@ -1,0 +1,80 @@
+nov 13 09:10:03 nixos xautolock[21376]:  -detectsleep        : reset timers when awaking from sleep.
+nov 13 09:10:03 nixos xautolock[21376]:  -lockaftersleep     : lock immediately after waking up from sleep.
+nov 13 09:10:03 nixos xautolock[21376]: Defaults :
+nov 13 09:10:03 nixos xautolock[21376]:   time          : 10 minutes
+nov 13 09:10:03 nixos xautolock[21376]:   locker        : xlock
+nov 13 09:10:03 nixos xautolock[21376]:   nowlocker     : xlock
+nov 13 09:10:03 nixos xautolock[21376]:   killtime      : 20 minutes
+nov 13 09:10:03 nixos xautolock[21376]:   killer        : none
+nov 13 09:10:03 nixos xautolock[21376]:   notify        : don't notify
+nov 13 09:10:03 nixos xautolock[21376]:   notifier      : none
+nov 13 09:10:03 nixos xautolock[21376]:   bell          : 40%
+nov 13 09:10:03 nixos xautolock[21376]:   corners       : 0000
+nov 13 09:10:03 nixos xautolock[21376]:   cornerdelay   : 5 seconds
+nov 13 09:10:03 nixos xautolock[21376]:   cornerredelay : 5 seconds
+nov 13 09:10:03 nixos xautolock[21376]:   cornersize    : 10 pixels
+nov 13 09:10:03 nixos xautolock[21376]: Version : 2.2
+nov 13 09:10:03 nixos systemd[1010]: xautolock-session.service: Main process exited, code=exited, status=1/FAILURE
+nov 13 09:10:03 nixos systemd[1010]: xautolock-session.service: Failed with result 'exit-code'.
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Scheduled restart job, restart counter is at 4.
+nov 13 09:10:04 nixos systemd[1010]: Started xautolock, session locker service.
+nov 13 09:10:04 nixos xautolock[21378]: Usage : xautolock [-help][-version][-time mins][-locker locker]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-killtime mins][-killer killer]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-notify margin][-notifier notifier][-bell percent]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-corners xxxx][-cornerdelay secs]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-cornerredelay secs][-cornersize pixels]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-nocloseout][-nocloseerr][-noclose]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-enable][-disable][-toggle][-exit][-secure]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-locknow][-unlocknow][-nowlocker locker]
+nov 13 09:10:04 nixos xautolock[21378]:                   [-restart][-resetsaver][-detectsleep][-lockaftersleep]
+nov 13 09:10:04 nixos xautolock[21378]:  -help               : print this message and exit.
+nov 13 09:10:04 nixos xautolock[21378]:  -version            : print version number and exit.
+nov 13 09:10:04 nixos xautolock[21378]:  -time mins          : time before locking the screen [1 <= mins <= 60].
+nov 13 09:10:04 nixos xautolock[21378]:  -locker locker      : program used to lock.
+nov 13 09:10:04 nixos xautolock[21378]:  -nowlocker locker   : program used to lock immediately.
+nov 13 09:10:04 nixos xautolock[21378]:  -killtime killmins  : time after locking at which to run
+nov 13 09:10:04 nixos xautolock[21378]:                        the killer [10 <= killmins <= 120].
+nov 13 09:10:04 nixos xautolock[21378]:  -killer killer      : program used to kill.
+nov 13 09:10:04 nixos xautolock[21378]:  -notify margin      : notify this many seconds before locking.
+nov 13 09:10:04 nixos xautolock[21378]:  -notifier notifier  : program used to notify.
+nov 13 09:10:04 nixos xautolock[21378]:  -bell percent       : loudness of notification beeps.
+nov 13 09:10:04 nixos xautolock[21378]:  -corners xxxx       : corner actions (0, +, -) in this order:
+nov 13 09:10:04 nixos xautolock[21378]:                        topleft topright bottomleft bottomright
+nov 13 09:10:04 nixos xautolock[21378]:  -cornerdelay secs   : time to lock screen in a `+' corner.
+nov 13 09:10:04 nixos xautolock[21378]:  -cornerredelay secs : time to relock screen in a `+' corner.
+nov 13 09:10:04 nixos xautolock[21378]:  -cornersize pixels  : size of corner areas.
+nov 13 09:10:04 nixos xautolock[21378]:  -nocloseout         : do not close stdout.
+nov 13 09:10:04 nixos xautolock[21378]:  -nocloseerr         : do not close stderr.
+nov 13 09:10:04 nixos xautolock[21378]:  -noclose            : close neither stdout nor stderr.
+nov 13 09:10:04 nixos xautolock[21378]:  -enable             : enable a running xautolock.
+nov 13 09:10:04 nixos xautolock[21378]:  -disable            : disable a running xautolock.
+nov 13 09:10:04 nixos xautolock[21378]:  -toggle             : toggle a running xautolock.
+nov 13 09:10:04 nixos xautolock[21378]:  -locknow            : tell a running xautolock to lock.
+nov 13 09:10:04 nixos xautolock[21378]:  -unlocknow          : tell a running xautolock to unlock.
+nov 13 09:10:04 nixos xautolock[21378]:  -restart            : tell a running xautolock to restart.
+nov 13 09:10:04 nixos xautolock[21378]:  -exit               : kill a running xautolock.
+nov 13 09:10:04 nixos xautolock[21378]:  -secure             : ignore enable, disable, toggle, locknow
+nov 13 09:10:04 nixos xautolock[21378]:                        unlocknow, and restart messages.
+nov 13 09:10:04 nixos xautolock[21378]:  -resetsaver         : reset the screensaver when starting the locker.
+nov 13 09:10:04 nixos xautolock[21378]:  -detectsleep        : reset timers when awaking from sleep.
+nov 13 09:10:04 nixos xautolock[21378]:  -lockaftersleep     : lock immediately after waking up from sleep.
+nov 13 09:10:04 nixos xautolock[21378]: Defaults :
+nov 13 09:10:04 nixos xautolock[21378]:   time          : 10 minutes
+nov 13 09:10:04 nixos xautolock[21378]:   locker        : xlock
+nov 13 09:10:04 nixos xautolock[21378]:   nowlocker     : xlock
+nov 13 09:10:04 nixos xautolock[21378]:   killtime      : 20 minutes
+nov 13 09:10:04 nixos xautolock[21378]:   killer        : none
+nov 13 09:10:04 nixos xautolock[21378]:   notify        : don't notify
+nov 13 09:10:04 nixos xautolock[21378]:   notifier      : none
+nov 13 09:10:04 nixos xautolock[21378]:   bell          : 40%
+nov 13 09:10:04 nixos xautolock[21378]:   corners       : 0000
+nov 13 09:10:04 nixos xautolock[21378]:   cornerdelay   : 5 seconds
+nov 13 09:10:04 nixos xautolock[21378]:   cornerredelay : 5 seconds
+nov 13 09:10:04 nixos xautolock[21378]:   cornersize    : 10 pixels
+nov 13 09:10:04 nixos xautolock[21378]: Version : 2.2
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Main process exited, code=exited, status=1/FAILURE
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Failed with result 'exit-code'.
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Scheduled restart job, restart counter is at 5.
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Start request repeated too quickly.
+nov 13 09:10:04 nixos systemd[1010]: xautolock-session.service: Failed with result 'start-limit-hit'.
+nov 13 09:10:04 nixos systemd[1010]: Failed to start xautolock, session locker service.
