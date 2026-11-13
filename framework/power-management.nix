@@ -1,12 +1,8 @@
-{ lib, ... }:
+{ lib, pkgs, ... }:
 
 {
   boot = lib.mkMerge [{
     kernelParams = [
-      "acpi.ec_no_wakeup=1"
-      "acpi_osi=\"!Windows 2020\""
-      "amd_pstate=active"
-      "mem_sleep_default=s2idle"
       # This is disabled because it may drain battery. This flag prevents the
       # kernel from using ACPI power states (D3cold / APST) on NVMe drives.
       # Without it, the SSD cannot enter its "deepest" sleep state during idle
@@ -30,4 +26,10 @@
   };
 
   services.power-profiles-daemon.enable = true;
+
+  # Automatically switch to power-saver on battery and balanced on AC
+  services.udev.extraRules = ''
+    SUBSYSTEM=="power_supply", ATTR{type}=="Mains", ATTR{online}=="0", RUN+="${pkgs.power-profiles-daemon}/bin/powerprofilesctl set power-saver"
+    SUBSYSTEM=="power_supply", ATTR{type}=="Mains", ATTR{online}=="1", RUN+="${pkgs.power-profiles-daemon}/bin/powerprofilesctl set balanced"
+  '';
 }

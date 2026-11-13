@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   programs.i3status-rust = {
@@ -9,7 +9,8 @@
         blocks = [
           {
             block = "net";
-            format = " $icon $ip ($ssid $signal_strength / $device) ^icon_net_down $speed_down.eng(prefix:K) ^icon_net_up $speed_up.eng(prefix:K) ";
+            format = " $icon $ip ($ssid $signal_strength $bitrate / $device) ^icon_net_down $speed_down.eng(prefix:K) ^icon_net_up $speed_up.eng(prefix:K) ";
+            interval = 5;
           }
           {
             alert = 10.0;
@@ -21,26 +22,28 @@
           }
           {
             block = "memory";
+            interval = 5;
           }
           {
             block = "cpu";
-            interval = 1;
+            interval = 5;
           }
           {
             block = "load";
             format = " $icon $1m ";
-            interval = 1;
+            interval = 5;
           }
           {
             block = "sound";
           }
           {
             block = "time";
-            interval = 60;
+            interval = 30;
             format = " $timestamp.datetime(f:'%a %d/%m/%y %R') ";
           }
           {
             block = "battery";
+            interval = 10;
             format = " $percentage /$power $icon ";
             full_format = " $percentage $icon ";
           }
@@ -48,11 +51,11 @@
 
         settings = {
           theme = {
-            theme = "gruvbox-dark";
+            theme = "ctp-mocha";
           };
         };
-        icons = "awesome6";
-        theme = "gruvbox-dark";
+        icons = "material-nf";
+        theme = "ctp-mocha";
       };
     };
   };

@@ -21,15 +21,10 @@
         extraPackages = with pkgs; [
           dmenu
           i3lock
-          rofi
         ];
       };
     }
   ];
  
-  services.displayManager = {
-    enable = true;
-
-    defaultSession = "none+i3";
-  };
+  services.displayManager.enable = false;
 }

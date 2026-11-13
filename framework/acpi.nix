@@ -10,7 +10,7 @@
         action = ''
           #!/bin/sh
           bl_device=/sys/class/backlight/amdgpu_bl1/brightness
-          echo $(($(cat $bl_device)-10)) | tee $bl_device
+          echo $(($(cat $bl_device)-1000)) | tee $bl_device
         ''; 
       };
       brightness-up = {
@@ -18,7 +18,7 @@
         action = ''
           #!/bin/sh
           bl_device=/sys/class/backlight/amdgpu_bl1/brightness
-          echo $(($(cat $bl_device)+10)) | tee $bl_device
+          echo $(($(cat $bl_device)+1000)) | tee $bl_device
         ''; 
       };
     };
