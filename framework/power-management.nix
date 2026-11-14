@@ -18,9 +18,9 @@
 
   services.logind.settings.Login = {
     # Normal behavior
-    HandleLidSwitch = "suspend";
+    HandleLidSwitch = "suspend-then-hibernate";
     # When connected to power simply locks screen
-    HandleLidSwitchExternalPower = "suspend";
+    HandleLidSwitchExternalPower = "suspend-then-hibernate";
     # When another screen is connected, ignore
     HandleLidSwitchDocked = "ignore";
   };
@@ -32,4 +32,9 @@
     SUBSYSTEM=="power_supply", ATTR{type}=="Mains", ATTR{online}=="0", RUN+="${pkgs.power-profiles-daemon}/bin/powerprofilesctl set power-saver"
     SUBSYSTEM=="power_supply", ATTR{type}=="Mains", ATTR{online}=="1", RUN+="${pkgs.power-profiles-daemon}/bin/powerprofilesctl set balanced"
   '';
+
+  systemd.sleep.settings.Sleep = {
+    HibernateDelaySec = "5min";
+    HibernateOnACPower = true;
+  };
 }
