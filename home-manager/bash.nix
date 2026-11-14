@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, ... }:
 
 {
   programs.bash = {
@@ -13,7 +13,7 @@
 
     sessionVariables = {
       COLORTERM = "24bit";
-      TERM = "xterm-256color";
+      #TERM = "xterm-256color";
       GROFF_NO_SGR = "1";
 
       EDITOR = "vim";
