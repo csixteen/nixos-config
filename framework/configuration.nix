@@ -74,7 +74,8 @@ in
       terminus_font
     ];
 
-    font = "${pkgs.terminus_font}/share/consolefonts/ter-u28n.psf.gz";
+    # font = "${pkgs.terminus_font}/share/consolefonts/ter-u28n.psf.gz";
+    font = ./lat9w-16-double.psf;
     keyMap = "us";
   };
 
